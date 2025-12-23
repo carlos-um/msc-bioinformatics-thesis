@@ -7,7 +7,11 @@ by **Carlos C. Ureña Mateo** (University of Murcia, MSc Bioinformatics, 2025).
 
 ## Overview
 
-Lewy body diseases, including Parkinson’s disease, Parkinson’s disease dementia, and dementia with Lewy bodies, are neurodegenerative disorders that may share epigenetic alterations, particularly in DNA methylation profiles. The aim of this thesis was to design and implement a reproducible and modular computational pipeline to analyze DNA methylation data, integrating clinically curated gene panels with supervised machine learning models to identify biologically meaningful and discriminative epigenetic patterns.
+Lewy body diseases—including Parkinson’s disease (PD), Parkinson’s disease dementia (PDD), and dementia with Lewy bodies (DLB) are neurodegenerative disorders for which disease-specific epigenetic alterations remain incompletely characterized. DNA methylation provides a high-resolution molecular layer to investigate whether these conditions can be distinguished from neurologically healthy controls based on epigenetic profiles.
+
+In this thesis, a reproducible and modular bioinformatics pipeline was developed to analyze DNA methylation data using a hypothesis-driven strategy. Clinically curated gene panels were incorporated at the initial stages of the pipeline as prior biological knowledge to guide probe selection and reduce dimensionality before any statistical modeling.
+
+Following this biologically informed filtering step, supervised machine learning models were applied to evaluate the discriminative capacity of panel-specific methylation profiles. Models were trained both at a global panel level and after stratification by functional genomic regions, enabling the detection of localized epigenetic signals associated with disease status rather than assuming shared methylation patterns across disorders.
 
 ## Methods
 
