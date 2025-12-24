@@ -72,7 +72,7 @@ Prepares datasets for binary machine learning classification at the global gene 
 
 ---
 
-### 5. `train_models_all()`
+### 5. `train_models_all.R`
 Trains and evaluates binary classification models using supervised machine learning.
 
 **Implementation details**
@@ -113,7 +113,7 @@ Splits filtered probes into biologically meaningful genomic loci: Promoter, TSS2
 
 ---
 
-### 7. `prepare_for_ml_loci()`
+### 7. `prepare_for_ml_loci.R`
 Prepares ML datasets independently for each genomic locus.
 
 **Input**
@@ -125,7 +125,7 @@ Prepares ML datasets independently for each genomic locus.
 
 ---
 
-### 8. `train_models_loci()`
+### 8. `train_models_loci.R`
 Trains and evaluates binary classification models for each genomic locus and clinical contrast.
 
 **Function**
